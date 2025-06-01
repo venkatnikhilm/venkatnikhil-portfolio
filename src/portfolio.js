@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Venkat Nikhil Mangipudi",
+  title: "Hi all, I'm Venkat Nikhil",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1xjlWZGrKoU0LqdP-edUbDza-j3YUyeIc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/venkatnikhilm",
+  linkedin: "https://www.linkedin.com/in/venkatnikhilm/",
+  gmail: "venkatnikhilmangipudi@gmail.com",
+  instagram: "https://www.instagram.com/venkat.nikhil/",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -64,59 +65,79 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  {
+    skillName: "TypeScript",
+    fontAwesomeClassname: "fas fa-code" // No official TypeScript icon in Font Awesome, this is a good neutral alternative
+  },
+  {
+    skillName: "React",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "Node.js",
+    fontAwesomeClassname: "fab fa-node-js"
+  },
+  {
+    skillName: "Python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "Docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "Kubernetes",
+    fontAwesomeClassname: "fas fa-network-wired" // No official FA icon, this is a visual alternative
+  },
+  {
+    skillName: "SQL",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "GraphQL",
+    fontAwesomeClassname: "fas fa-project-diagram" // FA doesn't have GraphQL icon
+  },
+  {
+    skillName: "Golang",
+    fontAwesomeClassname: "fas fa-gem" // Placeholder; Font Awesome doesn't have Go icon
+  },
+  {
+    skillName: "Git",
+    fontAwesomeClassname: "fab fa-git"
+  },
+  {
+  skillName: "CI/CD",
+  fontAwesomeClassname: "fas fa-sync-alt"
+  },
+  {
+    skillName: "HTML5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "CSS3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "Sass",
+    fontAwesomeClassname: "fab fa-sass"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "Firebase",
+    fontAwesomeClassname: "fas fa-fire"
+  }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,16 +147,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "Arizona State University",
+      logo: require("./assets/images/asu.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "August 2023 - May 2025",
+      desc: "Focused on building scalable systems, applied machine learning, and software security. Took part in AI-driven projects and hackathons, winning multiple awards.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
+        "Courses: Cloud Computing, Statistical Machine Learning, Human-Computer Interaction",
+        "Won 2nd place in the Snap Inc. challenge at LAHacks 2025 for an AI-powered fashion assistant",
+        "Won AI innovation Award at Sunhacks 2024 for Prepify, an AI-drive interview preparation platform",
+  ]
+},
     {
       schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
