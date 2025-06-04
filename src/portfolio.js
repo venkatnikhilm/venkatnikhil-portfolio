@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Venkat Nikhil Mangipudi",
-  title: "Hi all, I'm Venkat Nikhil",
+  title: "Hey, I'm Venkat Nikhil!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Full-stack developer with a love for building intelligent, user-focused web apps using modern JavaScript, AWS, and a touch of machine learning."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1xjlWZGrKoU0LqdP-edUbDza-j3YUyeIc/view?usp=sharing", // Set to empty to hide the button
@@ -37,11 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/venkatnikhilm/",
   gmail: "venkatnikhilmangipudi@gmail.com",
   instagram: "https://www.instagram.com/venkat.nikhil/",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -144,7 +140,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true 
   schools: [
     {
       schoolName: "Arizona State University",
@@ -159,12 +155,16 @@ const educationInfo = {
   ]
 },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "R V College of Engineering",
+      logo: require("./assets/images/rvce.png"),
+      subHeader: "Bachelor of Engineering in Electrical and Electronics Engineering",
+      duration: "August 2017 - August 2021",
+      desc: "Built a strong foundation in core engineering principles while exploring a growing interest in software development through internships and self-driven projects.",
+      descBullets: [
+        "Completed a full-time Software Engineering internship at JSW Steel, optimizing industrial electrical systems with Python automation",
+        "Transitioned into software by building personal web and data projects alongside coursework",
+        "Graduated with distinction while balancing both hardware and software-focused learning"
+  ]
     }
   ]
 };
@@ -172,53 +172,56 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend & API Development",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Backend",
+      Stack: "Frontend Engineering",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Cloud & DevOps",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "Machine Learning & AI",
+      progressPercentage: "70%"
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Sonata Software",
+      companylogo: require("./assets/images/sonataLogo.png"), // Replace with your actual logo path
+      date: "July 2021 – July 2023",
+      desc: "Worked as a full-stack developer on enterprise-grade solutions, building performant and scalable applications across diverse tech stacks.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed and integrated RESTful APIs with React.js frontend and Node.js backend, improving performance and user experience by 20%",
+        "Developed and deployed full-stack solutions using Azure DevOps for CI/CD, reducing deployment time by 15%",
+        "Optimized database performance by implementing efficient SQL queries and NoSQL integrations, reducing query execution time by 25%"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "JSW Limited",
+      companylogo: require("./assets/images/jswLogo.png"), // Replace with your actual logo path
+      date: "June 2019 – July 2019",
+      desc: "Built automation tools to streamline electrical monitoring systems in a high-load industrial environment.",
+      descBullets: [
+        "Developed a Python-based tool to monitor and optimize electrical systems, reducing downtime by 15%",
+        "Automated data collection and analysis workflows, improving operational efficiency by 20%",
+        "Collaborated with electrical and IT teams to deploy cost-saving automation strategies"
+      ]
     }
   ]
 };
@@ -227,41 +230,54 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Builds",
+  subtitle: "PRODUCTS AND HACKATHON PROJECTS, I HELPED BUILD",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/snapdrobeLogo.png"), // Replace with actual logo or placeholder
+      projectName: "SnapDrobe",
+      projectDesc:
+        "An AI-powered fashion assistant built for Snapchat Spectacles that recommends outfits in real time. Won 2nd place in the Snap Inc. Challenge at LAHacks 2025.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Devpost",
+          url: "https://devpost.com/software/snapdrobe"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/prepifyLogo.png"), // Replace with actual logo or placeholder
+      projectName: "Prepify",
+      projectDesc:
+        "A real-time AI mock interview platform powered by OpenAI, AWS Transcribe, and Polly. Helps users practice and receive feedback instantly.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Devpost",
+          url: "https://devpost.com/software/prepify-io"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/faceRecogLogo.png"), // Replace with actual logo or placeholder
+      projectName: "Cloud-Based Facial Recognition System",
+      projectDesc:
+        "An elastic, cloud-native face recognition platform using AWS Lambda, S3, and OpenCV to detect and verify faces in real time.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/venkatnikhilm/facial-recognition"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
@@ -270,59 +286,37 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Hackathons, certifications, and awards that reflect my passion for tech and continuous learning.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "LAHacks 2025 - Snap Inc. Challenge – 2nd Place",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Won 2nd place at LAHacks 2025 for building SnapDrobe, an AI-powered fashion assistant for Snapchat Spectacles.",
+      image: require("./assets/images/lahacks.png"), // Replace with real logo
+      imageAlt: "Snap Inc. Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Devpost Submission",
+          url: "https://devpost.com/software/snapdrobe"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "SunHacks 2024 – AI Innovation Award",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Recognized for building Prepify, a real-time AI mock interview platform integrating OpenAI, AWS Transcribe, and Polly.",
+      image: require("./assets/images/sunhacksLogo.png"), // Replace with real logo
+      imageAlt: "SunHacks Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Devpost Submission",
+          url: "https://devpost.com/software/prepify-io"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -346,7 +340,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -359,13 +353,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -376,9 +370,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -394,8 +388,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+1 (602) 555-3226", // Replace with your phone number
+  email_address: "venkatnikhilmangipudi@gmail.com"
 };
 
 // Twitter Section
@@ -405,7 +399,21 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
+const personalSection = {
+  display: true,
+  title: "Life Outside Code",
+  subtitle:
+    "When I’m not coding or debugging at 2 AM, you’ll find me...",
+  items: [
+    "Hiking and exploring new trails",
+    "Capturing sunsets and candid moments",
+    "Experimenting with new recipes in the kitchen",
+    "Reading sci-fi novels and tech blogs",
+    "Volunteering and helping local communities",
+  ]
+};
 
 export {
   illustration,
@@ -425,5 +433,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  personalSection
 };

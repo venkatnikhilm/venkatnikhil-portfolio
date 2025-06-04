@@ -1,0 +1,131 @@
+// @import "../../_globalColor";
+
+// .personal-section {
+//   width: 90%;
+//   padding: 20px 10px;
+//   margin: 4rem auto 2rem auto;
+//   text-align: left;
+
+//   h1,
+//   p,
+//   li {
+//     color: $textColor; // default light mode
+//   }
+
+//   ul {
+//     list-style: none;
+//     padding-left: 0;
+
+//     li {
+//       font-size: 18px;
+//       margin-bottom: 10px;
+//       padding-left: 1.5rem;
+//       position: relative;
+
+//       &::before {
+//         content: "🎯";
+//         position: absolute;
+//         left: 0;
+//         top: 0;
+//       }
+//     }
+//   }
+
+//   &.dark-mode {
+//     h1,
+//     p,
+//     li {
+//       color: $textColorDark !important;
+//     }
+//   }
+// }
+
+// /* Responsive */
+// @media (max-width: 768px) {
+//   .personal-section {
+//     text-align: center;
+
+//     h1 {
+//       font-size: 32px;
+//     }
+
+//     p {
+//       font-size: 18px;
+//     }
+
+//     ul li {
+//       font-size: 16px;
+//     }
+//   }
+// }
+@import "../../_globalColor";
+
+.personal-section {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    font-size: 70px; // match greeting/progress heading
+    //font-weight: bold;
+    color: $textColor;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    color: $subTitle;
+    line-height: 1.6;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+
+    li {
+      font-size: 18px;
+      line-height: 1.8;
+      padding-left: 1.5rem;
+      position: relative;
+      color: $textColor;
+
+      &::before {
+        content: "🎯";
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+
+  &.dark-mode {
+    h1,
+    p,
+    li {
+      color: $textColorDark !important;
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .personal-section {
+    text-align: center;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    ul li {
+      font-size: 16px;
+    }
+  }
+}
