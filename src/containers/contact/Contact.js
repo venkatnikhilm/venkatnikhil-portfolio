@@ -41,6 +41,7 @@ export default function Contact() {
                   <br />
                 </>
               )}
+
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
@@ -50,6 +51,9 @@ export default function Contact() {
               <br />
               <br />
               <SocialMedia />
+              <div className="open-to-work-tag">
+                <span role="img" aria-label="green-circle">🟢</span> Open to Full-Time Opportunities
+              </div>
             </div>
           </div>
           <div className="contact-image-div">

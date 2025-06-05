@@ -52,9 +52,12 @@ export default function Greeting() {
                   </a>
                 )}
               </div>
+              <div className="open-to-work-tag">
+    <span role="img" aria-label="green-circle">🟢</span> Open to Full-Time Opportunities
+  </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/* <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
@@ -63,7 +66,14 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
-          </div>
+          </div> */}
+          <div className="headshot-wrapper">
+                <img
+                  src={require("../../assets/images/myImages/IMG_9302.jpg")} // move this image here
+                  alt="Venkat Nikhil"
+                  className="animated-headshot"
+                />
+            </div>
         </div>
       </div>
     </Fade>
