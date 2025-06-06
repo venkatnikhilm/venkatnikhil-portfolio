@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 export default function StartupProject() {
   function openUrlInNewTab(url) {
     if (!url) {
-      return;
+      return; 
     }
     var win = window.open(url, "_blank");
     win.focus();

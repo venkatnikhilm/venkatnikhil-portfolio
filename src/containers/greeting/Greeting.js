@@ -53,8 +53,9 @@ export default function Greeting() {
                 )}
               </div>
               <div className="open-to-work-tag">
-    <span role="img" aria-label="green-circle">🟢</span> Open to Full-Time Opportunities
-  </div>
+                 Open to Full-Time roles in the U.S
+              </div>
+              
             </div>
           </div>
           {/* <div className="greeting-image-div">

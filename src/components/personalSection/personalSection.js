@@ -10,8 +10,9 @@ import sedona from "../../assets/images/myImages/sedona.jpeg";
 import japan from "../../assets/images/myImages/japan.jpeg";
 import hiking from "../../assets/images/myImages/hiking.jpeg";
 import ice from "../../assets/images/myImages/ice.jpeg";
+import tabla from "../../assets/images/myImages/tabla.png";
 
-const images = [grad, sedona, japan, hiking, ice];
+const images = [grad, sedona, japan, hiking, ice, tabla];
 
 export default function PersonalSection() {
   const { isDark } = useContext(StyleContext);

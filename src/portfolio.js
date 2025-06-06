@@ -45,12 +45,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Tech I work with",
+  title: "Tech I work with",
+  subTitle: "From frontend polish to backend muscle, here’s what I bring to the table.",
   skills: [
-    emoji("⚡ Build scalable full-stack applications using React, Node.js, and TypeScript"),
-  emoji("⚡ Develop real-time and AI-powered features using OpenAI, WebSockets, and AWS services"),
-  emoji("⚡ Design and deploy cloud-native solutions with Docker, Kubernetes, and CI/CD pipelines")
+    emoji(
+      "⚡ Build scalable full-stack applications using React, Node.js, and TypeScript"),
+    emoji("⚡ Develop real-time and AI-powered features using OpenAI, WebSockets, and AWS services"),
+    emoji(
+      "⚡ Design and deploy cloud-native solutions with Docker, Kubernetes, and CI/CD pipelines"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -226,7 +229,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -406,7 +409,7 @@ const personalSection = {
     "Hiking and exploring new trails",
     "Capturing sunsets and candid moments",
     "Experimenting with new recipes in the kitchen",
-    "Reading sci-fi novels and tech blogs",
+    "Jamming on the tabla whenever inspiration strikes",
     "Volunteering and helping local communities",
   ]
 };
