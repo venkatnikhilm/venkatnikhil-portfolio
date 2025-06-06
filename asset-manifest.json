@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/venkatnikhil-portfolio/static/css/main.b8173945.css",
-    "main.js": "/venkatnikhil-portfolio/static/js/main.f4ea0e3b.js",
-    "static/css/64.bba8fa55.chunk.css": "/venkatnikhil-portfolio/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.56dc6704.chunk.js": "/venkatnikhil-portfolio/static/js/64.56dc6704.chunk.js",
+    "main.css": "/venkatnikhil-portfolio/static/css/main.20258142.css",
+    "main.js": "/venkatnikhil-portfolio/static/js/main.83d94cd7.js",
     "static/css/769.b3cbb36b.chunk.css": "/venkatnikhil-portfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/venkatnikhil-portfolio/static/js/769.bda0d7b7.chunk.js",
     "static/media/IMG_9302.jpg": "/venkatnikhil-portfolio/static/media/IMG_9302.a20980f913f46bba22a6.jpg",
+    "static/media/tabla.png": "/venkatnikhil-portfolio/static/media/tabla.5ed9971940dd74bdfc6d.png",
     "static/media/faceRecogLogo.png": "/venkatnikhil-portfolio/static/media/faceRecogLogo.ee41864d89b7ebfaf2da.png",
     "static/media/sunhacksLogo.png": "/venkatnikhil-portfolio/static/media/sunhacksLogo.c378af9c144666298f5d.png",
     "static/media/sedona.jpeg": "/venkatnikhil-portfolio/static/media/sedona.6daf916d838ca3317394.jpeg",
@@ -27,15 +26,13 @@
     "static/media/jswLogo.png": "/venkatnikhil-portfolio/static/media/jswLogo.8eeca7335d34e68966e9.png",
     "static/media/skill.svg": "/venkatnikhil-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/venkatnikhil-portfolio/index.html",
-    "main.b8173945.css.map": "/venkatnikhil-portfolio/static/css/main.b8173945.css.map",
-    "main.f4ea0e3b.js.map": "/venkatnikhil-portfolio/static/js/main.f4ea0e3b.js.map",
-    "64.bba8fa55.chunk.css.map": "/venkatnikhil-portfolio/static/css/64.bba8fa55.chunk.css.map",
-    "64.56dc6704.chunk.js.map": "/venkatnikhil-portfolio/static/js/64.56dc6704.chunk.js.map",
+    "main.20258142.css.map": "/venkatnikhil-portfolio/static/css/main.20258142.css.map",
+    "main.83d94cd7.js.map": "/venkatnikhil-portfolio/static/js/main.83d94cd7.js.map",
     "769.b3cbb36b.chunk.css.map": "/venkatnikhil-portfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/venkatnikhil-portfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8173945.css",
-    "static/js/main.f4ea0e3b.js"
+    "static/css/main.20258142.css",
+    "static/js/main.83d94cd7.js"
   ]
 }
