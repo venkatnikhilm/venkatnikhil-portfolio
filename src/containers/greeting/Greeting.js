@@ -42,7 +42,7 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={"https://drive.google.com/file/d/1xjlWZGrKoU0LqdP-edUbDza-j3YUyeIc/view?usp=sharing"}
+                    href={"https://drive.google.com/file/d/13ESIHFis7JsMyHPl9ZCDtn97LTncl9_N/view?usp=sharing"}
                     // download="Venkat_Nikhil_Resume.pdf"
                     target="_blank"
                     className="download-link-button"
@@ -70,7 +70,7 @@ export default function Greeting() {
           </div> */}
           <div className="headshot-wrapper">
                 <img
-                  src={require("../../assets/images/myImages/IMG_9302.jpg")} // move this image here
+                  src={require("../../assets/images/myImages/headshot3.jpeg")} // move this image here
                   alt="Venkat Nikhil"
                   className="animated-headshot"
                 />

@@ -26,7 +26,7 @@ const greeting = {
     "Full-stack developer with a love for building intelligent, user-focused web apps using modern JavaScript, AWS, and a touch of machine learning."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1xjlWZGrKoU0LqdP-edUbDza-j3YUyeIc/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13ESIHFis7JsMyHPl9ZCDtn97LTncl9_N/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -199,6 +199,18 @@ const workExperiences = {
   display: true,
   experience: [
     {
+  role: "Machine Learning Research Aide",
+  company: "Texas A&M University - Corpus Christi",
+  companylogo: require("./assets/images/myImages/tamuccLogo.png"), // Replace with actual logo path
+  date: "July 2025 – Present",
+  desc: "Assisting in ongoing machine learning research under the guidance of university faculty, contributing to literature review, data processing, and model experimentation.",
+  descBullets: [
+    "Collaborated remotely with academic researchers on ML-based projects involving data classification and predictive analytics",
+    "Contributed to data preprocessing pipelines and exploratory data analysis (EDA) using Python, Pandas, and Scikit-learn",
+    "Reviewed state-of-the-art literature on transformer architectures and LLM evaluation techniques to support future project directions"
+  ]
+},
+    {
       role: "Software Engineer",
       company: "Sonata Software",
       companylogo: require("./assets/images/sonataLogo.png"), // Replace with your actual logo path
@@ -235,10 +247,77 @@ const openSource = {
 
 // Some big projects you have worked on
 
+// const bigProjects = {
+//   title: "Major Builds",
+//   subtitle: "PRODUCTS AND HACKATHON PROJECTS, I HELPED BUILD",
+//   projects: [
+//     {
+//       image: require("./assets/images/snapdrobeLogo.png"), // Replace with actual logo or placeholder
+//       projectName: "SnapDrobe",
+//       projectDesc:
+//         "An AI-powered fashion assistant built for Snapchat Spectacles that recommends outfits in real time. Won 2nd place in the Snap Inc. Challenge at LAHacks 2025.",
+//       footerLink: [
+//         {
+//           name: "Devpost",
+//           url: "https://devpost.com/software/snapdrobe"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/prepifyLogo.png"), // Replace with actual logo or placeholder
+//       projectName: "Prepify",
+//       projectDesc:
+//         "A real-time AI mock interview platform powered by OpenAI, AWS Transcribe, and Polly. Helps users practice and receive feedback instantly.",
+//       footerLink: [
+//         {
+//           name: "Devpost",
+//           url: "https://devpost.com/software/prepify-io"
+//         }
+//       ]
+//     },
+//     {
+//       image: require("./assets/images/faceRecogLogo.png"), // Replace with actual logo or placeholder
+//       projectName: "Cloud-Based Facial Recognition System",
+//       projectDesc:
+//         "An elastic, cloud-native face recognition platform using AWS Lambda, S3, and OpenCV to detect and verify faces in real time.",
+//       footerLink: [
+//         {
+//           name: "GitHub",
+//           url: "https://github.com/venkatnikhilm/facial-recognition"
+//         }
+//       ]
+//     }
+//   ],
+//   display: true
+// };
 const bigProjects = {
   title: "Major Builds",
   subtitle: "PRODUCTS AND HACKATHON PROJECTS, I HELPED BUILD",
   projects: [
+    {
+      image: require("./assets/images/autoscoutLogo.png"), // Replace with actual logo or placeholder
+      projectName: "AutoScout",
+      projectDesc:
+        "An AI-powered web monitoring agent that lets users create natural language prompts to track price, stock, and content changes on any website using Gemini, Playwright, and AWS.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/venkatnikhilm/auto-scout-agent"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sentinelLogo.png"), // Replace with actual logo or placeholder
+      projectName: "Sentinel AI",
+      projectDesc:
+        "A Gemini-powered intelligent log analysis tool that parses large-scale system logs to detect anomalies and generate human-readable summaries. Built with FastAPI, Docker, and Next.js.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/venkatnikhilm/Sentinel-AI_Log_analyzer"
+        }
+      ]
+    },
     {
       image: require("./assets/images/snapdrobeLogo.png"), // Replace with actual logo or placeholder
       projectName: "SnapDrobe",
@@ -251,18 +330,18 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/prepifyLogo.png"), // Replace with actual logo or placeholder
-      projectName: "Prepify",
-      projectDesc:
-        "A real-time AI mock interview platform powered by OpenAI, AWS Transcribe, and Polly. Helps users practice and receive feedback instantly.",
-      footerLink: [
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/prepify-io"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/prepifyLogo.png"), // Replace with actual logo or placeholder
+    //   projectName: "Prepify",
+    //   projectDesc:
+    //     "A real-time AI mock interview platform powered by OpenAI, AWS Transcribe, and Polly. Helps users practice and receive feedback instantly.",
+    //   footerLink: [
+    //     {
+    //       name: "Devpost",
+    //       url: "https://devpost.com/software/prepify-io"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/faceRecogLogo.png"), // Replace with actual logo or placeholder
       projectName: "Cloud-Based Facial Recognition System",
