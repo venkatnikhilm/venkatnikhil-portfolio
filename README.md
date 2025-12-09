@@ -4,6 +4,6 @@ This is my personal developer portfolio built with **React.js** and styled using
 
 ## 🚀 Live Demo
 
-🌐 [Check out my portfolio here](https://venkatnikhilm.github.io/venkatnikhil-portfolio/)
+🌐 [Check out my portfolio here](https://venkatnikhilm.com)
 
 
