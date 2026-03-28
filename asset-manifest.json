@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.343276c6.css",
-    "main.js": "/static/js/main.8cf1ce1e.js",
+    "main.js": "/static/js/main.b105d1e4.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
+    "static/media/my_headshot4.png": "/static/media/my_headshot4.3d0e8d59f8c6b37787c0.png",
     "static/media/tabla.png": "/static/media/tabla.5ed9971940dd74bdfc6d.png",
     "static/media/autoscoutLogo.png": "/static/media/autoscoutLogo.2f2bae8f14ec835ffc7c.png",
     "static/media/sentinelLogo.png": "/static/media/sentinelLogo.f27186416500d680e6bc.png",
@@ -14,7 +15,6 @@
     "static/media/grad.jpeg": "/static/media/grad.eea6393f987dd0b4f2e2.jpeg",
     "static/media/ice.jpeg": "/static/media/ice.c06a48e6e30476d6a513.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/headshot3.jpeg": "/static/media/headshot3.3c5399db1c07d027bb37.jpeg",
     "static/media/japan.jpeg": "/static/media/japan.b8b7e798ff1ac69871d8.jpeg",
     "static/media/sonataLogo.png": "/static/media/sonataLogo.71ecf9bd8fd9ce95e5b9.png",
     "static/media/hiking.jpeg": "/static/media/hiking.8f390005a8f4b0facaf2.jpeg",
@@ -28,12 +28,12 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "main.343276c6.css.map": "/static/css/main.343276c6.css.map",
-    "main.8cf1ce1e.js.map": "/static/js/main.8cf1ce1e.js.map",
+    "main.b105d1e4.js.map": "/static/js/main.b105d1e4.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.343276c6.css",
-    "static/js/main.8cf1ce1e.js"
+    "static/js/main.b105d1e4.js"
   ]
 }
