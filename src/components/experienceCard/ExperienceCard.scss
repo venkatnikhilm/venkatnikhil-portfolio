@@ -79,16 +79,19 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   left: 0;
   right: 0;
-  top: 7rem;
+  top: 6.5rem;
   margin-left: auto;
   margin-right: auto;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
+  padding: 1rem;
+  background-color: $lightBackground1;
+  border: 1px solid $lightBorder1;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
-  border-radius: 50%;
+  border-radius: 20px;
 }
 
 .experience-text-role {
@@ -118,7 +121,7 @@
 
 .experience-text-details {
   padding: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 /* Media Query */
@@ -135,8 +138,9 @@
     font-size: 18px;
   }
   .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    padding: 0.8rem;
   }
 }
 

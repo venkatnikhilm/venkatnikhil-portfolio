@@ -199,6 +199,19 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Full Stack & Forward Deployed Engineer",
+      company: "Stacksync (YC W24)",
+      companylogo: require("./assets/images/myImages/stacksyncLogo.png"),
+      date: "April 2026 – Present",
+      desc: "Full-stack engineer on Stacksync's integrations platform in San Francisco, shipping production sync connectors, AI agent tooling, and real-time chat experiences with Django, React, and WebSockets — while forward-deploying with enterprise clients to deliver customer-facing applications end to end.",
+      descBullets: [
+        "Developed a production bidirectional Stripe sync connector in Django, enabling sub-second sync between Stripe and destinations like Postgres and Salesforce via cursor-based CDC and idempotent writes",
+        "Built the agent-side widget schema and real-time delivery for Stacksync's AI Copilot over WebSockets and Redis, plus a React component renderer that lets users confirm actions, fill forms, and preview workflow runs inline in chat",
+        "Expanded \"Genie\", an AI agent, to autonomously trigger multi-step workflows across 30+ connectors via natural language, reducing average integration setup time to under 5 minutes and cutting agent execution latency by 40%",
+        "As a forward deployed engineer, embedded directly with an enterprise client — reverse-engineering an undocumented NetSuite polling API and shipping a Django + GCP Gmail-powered automation tool that saved their team 10 hours/week, delivered 2 weeks ahead of the demo deadline"
+      ]
+    },
+    {
   role: "Machine Learning Research Aide",
   company: "Texas A&M University - Corpus Christi",
   companylogo: require("./assets/images/myImages/tamuccLogo.png"), // Replace with actual logo path
