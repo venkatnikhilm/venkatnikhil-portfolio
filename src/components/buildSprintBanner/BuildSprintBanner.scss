@@ -1,0 +1,133 @@
+@import "../../_globalColor.scss";
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba($skillsColor, 0.4),
+      0 0 30px rgba($buttonColor, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba($skillsColor, 0.7),
+      0 0 50px rgba($buttonColor, 0.4);
+  }
+}
+
+.build-sprint-banner {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, $buttonColor 0%, $skillsColor 50%, #7b2ff7 100%);
+  border-radius: 16px;
+  padding: 48px 40px;
+  text-align: center;
+  animation: glow 3s ease-in-out infinite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-shimmer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 100%
+  );
+  animation: shimmer 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.banner-headline {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: $textColorDark;
+  margin: 0 0 12px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.5px;
+}
+
+.banner-subtext {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 0 28px;
+  position: relative;
+  z-index: 1;
+  line-height: 1.5;
+  max-width: 380px;
+}
+
+.banner-cta {
+  position: relative;
+  z-index: 1;
+
+  .main-button {
+    background-color: $textColorDark;
+    color: $buttonColor;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 12px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+// Dark mode adjustments
+.build-sprint-banner.dark-mode {
+  background: linear-gradient(135deg, darken($buttonColor, 8%) 0%, $skillsColor 50%, #6a1ff0 100%);
+
+  .banner-headline {
+    color: $textColorDark;
+  }
+
+  .banner-subtext {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .banner-cta .main-button {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: darken($buttonColor, 5%);
+  }
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+  .build-sprint-banner {
+    padding: 32px 24px;
+  }
+
+  .banner-headline {
+    font-size: 1.6rem;
+  }
+
+  .banner-subtext {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .banner-cta .main-button {
+    font-size: 0.95rem;
+    padding: 10px 24px;
+  }
+}

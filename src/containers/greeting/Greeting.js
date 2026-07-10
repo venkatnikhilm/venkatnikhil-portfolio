@@ -70,7 +70,7 @@ export default function Greeting() {
           </div> */}
           <div className="headshot-wrapper">
                 <img
-                  src={require("../../assets/images/myImages/headshot3.jpeg")} // move this image here
+                  src={require("../../assets/images/myImages/my_headshot4.png")} // move this image here
                   alt="Venkat Nikhil"
                   className="animated-headshot"
                 />
